@@ -1,10 +1,12 @@
-# [Stanford Basic](https://github.com/SU-SWS/stanford_basic)
+# [Aten fork of the Stanford Basic Theme](https://github.com/SU-SWS/stanford_basic)
 ##### Version: 8.x
 
 Changelog: [Changelog.txt](CHANGELOG.txt)
 
 Description
 ---
+
+**Note: As of August 21, 2023 Stanford web services has archived this theme. In our testing of the theme there were issues with its build tools (i.e. 'npm install' failed). In preparing the theme for Drupal 10 we needed to remove dependencies on css libraries coming from the 'classy' theme; we added them to src/scss but as the build tools failed we also created .css files for each in dist/css.**
 
 **Primary development for the Stanford Basic theme has been consolidated and moved to the [Stanford Profile](https://github.com/SU-SWS/stanford_profile/tree/9.x/themes/stanford_basic)**.
 

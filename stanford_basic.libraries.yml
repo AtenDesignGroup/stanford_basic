@@ -52,7 +52,7 @@
 #     layout:
 #       css/layout/all.css: {}
 #     component:
-#       css/components/components.css: {}
+#       dist/css/components.css: {}
 #     state:
 #       css/state/states.css: {}
 #     theme:
@@ -91,6 +91,34 @@ admin:
     base:
       dist/css/admin.css: {  }
 
+base:
+  version: VERSION
+  css:
+    component:
+      dist/css/action-links.css: { weight: -10 }
+      dist/css/breadcrumb.css: { weight: -10 }
+      dist/css/button.css: { weight: -10 }
+      dist/css/collapse-processed.css: { weight: -10 }
+      dist/css/container-inline.css: { weight: -10 }
+      dist/css/details.css: { weight: -10 }
+      dist/css/exposed-filters.css: { weight: -10 }
+      dist/css/field.css: { weight: -10 }
+      dist/css/form.css: { weight: -10 }
+      dist/css/icons.css: { weight: -10 }
+      dist/css/inline-form.css: { weight: -10 }
+      dist/css/item-list.css: { weight: -10 }
+      dist/css/link.css: { weight: -10 }
+      dist/css/links.css: { weight: -10 }
+      dist/css/menu.css: { weight: -10 }
+      dist/css/more-link.css: { weight: -10 }
+      dist/css/pager.css: { weight: -10 }
+      dist/css/tabledrag.css: { weight: -10 }
+      dist/css/tableselect.css: { weight: -10 }
+      dist/css/tablesort.css: { weight: -10 }
+      dist/css/tabs.css: { weight: -10 }
+      dist/css/textarea.css: { weight: -10 }
+      dist/css/ui-dialog.css: { weight: -10 }
+
 basic:
   version: VERSION
   css:
@@ -99,7 +127,7 @@ basic:
     layout:
       dist/css/layout.css: {}
     component:
-      dist/css/components.css: {}
+      dist/dist/css.css: {}
     state:
       dist/css/state.css: {}
     theme:
@@ -109,14 +137,23 @@ basic:
     dist/js/base.js: { scope: footer }
     dist/js/behaviors.js: { scope: footer }
   dependencies:
-    - starterkit_theme/base
-    - starterkit_theme/messages
-    - starterkit_theme/progress
     - core/drupal
     - core/jquery
     - core/once
     - core/modernizr
     - stanford_basic/fontawesome
+
+messages:
+  version: VERSION
+  css:
+    component:
+      dist/css/messages.css: { weight: -10 }
+
+progress:
+  version: VERSION
+  css:
+    component:
+      dist/css/progress.css: { weight: -10 }
 
 search-page:
   version: VERSION
