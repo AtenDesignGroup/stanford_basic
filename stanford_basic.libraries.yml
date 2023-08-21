@@ -109,9 +109,9 @@ basic:
     dist/js/base.js: { scope: footer }
     dist/js/behaviors.js: { scope: footer }
   dependencies:
-    - classy/base
-    - classy/messages
-    - classy/progress
+    - starterkit_theme/base
+    - starterkit_theme/messages
+    - starterkit_theme/progress
     - core/drupal
     - core/jquery
     - core/once
