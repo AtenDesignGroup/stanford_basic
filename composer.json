@@ -1,13 +1,13 @@
 {
-    "name": "su-sws/stanford_basic",
-    "description": "Stanford Basic Branding Theme.",
+    "name": "aten/stanford_basic",
+    "description": "Aten fork of Stanford Basic Branding Theme.",
     "type": "drupal-custom-theme",
-    "homepage": "https://github.com/SU-SWS/stanford_basic",
+    "homepage": "https://github.com/AtenDesignGroup/stanford_basic",
     "authors": [],
     "license": "GPL-2.0-or-later",
     "minimum-stability": "dev",
     "require": {
-        "drupal/core": "^9.4",
+        "drupal/core": "^9.4 || ^10.0",
         "drupal/components": "^2.0"
     }
 }
