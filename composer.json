@@ -8,6 +8,6 @@
     "minimum-stability": "dev",
     "require": {
         "drupal/core": "^9.4 || ^10.0",
-        "drupal/components": "^2.0"
+        "drupal/components": "^3.0"
     }
 }
